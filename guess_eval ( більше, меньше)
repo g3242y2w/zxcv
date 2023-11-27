@@ -1,0 +1,11 @@
+int guess_eval(const int guess, const int my_number){
+    if(my_number < guess){
+        return 0;
+    }
+    else if(my_number > guess){
+        return 2;
+    }
+    else if(my_number == guess){
+        return 1;
+    }
+}
