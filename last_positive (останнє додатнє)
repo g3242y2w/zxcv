@@ -10,4 +10,5 @@ int last_positive(const int size, const int array[]){
             return -1;
         }
     }
+return 0;
 }
