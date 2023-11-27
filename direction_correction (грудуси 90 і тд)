@@ -1,0 +1,15 @@
+int direction_correction(const int degree){
+    if(degree < 0){
+        return -1;
+    }
+    int number;
+    int a = 0;
+    if(degree %90 == 0){
+        number = degree / 360;
+        a = degree - 360 * number;
+    }
+    if(degree %90 != 0){
+        return -1;
+    }
+    return a;
+}
